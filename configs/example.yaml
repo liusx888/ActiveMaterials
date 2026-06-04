@@ -1,0 +1,19 @@
+seed_csv: data/seed_features.csv
+unlabeled_csv: data/unlabeled_features.csv
+output_dir: outputs
+sample_id_column: formula
+feature_columns: [64, 48, 59, 28, 9, 54]
+target_column: ees_kappa
+structure_path_column:
+use_structure_features: false
+batch_size: 30
+test_size: 0.2
+random_seed: 1007
+strategy: expected_improvement
+log_target: false
+scale_features: true
+gp_alpha: 0.01
+gp_normalize_y: false
+gp_restarts: 10
+selected_output: selected.csv
+metrics_output: metrics.csv

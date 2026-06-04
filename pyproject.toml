@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "active-materials"
+version = "0.1.0"
+description = "A small active-learning toolkit for materials discovery."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ase",
+    "numpy",
+    "pandas",
+    "pymatgen",
+    "pyyaml",
+    "scikit-learn",
+    "scipy",
+    "tqdm",
+]
+
+[project.scripts]
+active-materials = "active_materials.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["active_materials*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
