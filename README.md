@@ -5,7 +5,7 @@ Active Materials 是一个面向材料筛选的轻量级主动学习工具。它
 1. 从 POSCAR、VASP、CIF 等结构文件中提取结构/元素特征。
 2. 基于已有标记样本训练模型，并从未标记样本中推荐下一批需要计算或实验验证的材料。
 
-![Active Materials 主动学习流程](assets\workflow.png)
+![Active Materials 主动学习流程](assets/workflow.png)
 
 ## 项目结构
 
