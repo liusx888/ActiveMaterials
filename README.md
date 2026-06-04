@@ -26,12 +26,12 @@ ActiveMaterials/
     total_features.csv
     unlabeled_features.csv
   assets/
-    active_learning_workflow.png
+    workflow.png
 ```
 
 ## 数据说明
 
-`D:\materials\project\activate_learning\almodel\ActiveMaterials\data` 下的文件对应论文中的数据集：
+`ActiveMaterials\data` 下的文件对应论文中的数据集：
 
 - `seed_features.csv`：论文中的初始 300 个样本集，也就是 `seed.csv`。该文件包含材料名称、特征列和已知目标值。
 - `total_features.csv`：论文中的全部样本特征集，包含所有候选材料的结构/元素特征。
